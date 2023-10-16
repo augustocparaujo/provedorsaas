@@ -1,0 +1,813 @@
+object(MercadoPago\Payment)#14 (87) {
+    [
+        "_last":protected
+    ]=> object(MercadoPago\Payment)#194 (87) {
+        [
+            "_last":protected
+        ]=> NULL [
+            "error":protected
+        ]=> NULL [
+            "_pagination_params":protected
+        ]=> NULL [
+            "_empty":protected
+        ]=> bool(false) [
+            "id":protected
+        ]=> int(64512113720) [
+            "acquirer":protected
+        ]=> NULL [
+            "acquirer_reconciliation":protected
+        ]=> array(0) {} [
+            "site_id":protected
+        ]=> NULL [
+            "sponsor_id":protected
+        ]=> NULL [
+            "operation_type":protected
+        ]=> string(15) "regular_payment"[
+            "order_id":protected
+        ]=> NULL [
+            "order":protected
+        ]=> array(0) {} [
+            "binary_mode":protected
+        ]=> bool(false) [
+            "external_reference":protected
+        ]=> NULL [
+            "status":protected
+        ]=> string(7) "pending"[
+            "status_detail":protected
+        ]=> string(23) "pending_waiting_payment"[
+            "store_id":protected
+        ]=> NULL [
+            "taxes_amount":protected
+        ]=> int(0) [
+            "payment_type":protected
+        ]=> NULL [
+            "date_created":protected
+        ]=> string(29) "2023-09-30T10:44:43.789-04:00"[
+            "last_modified":protected
+        ]=> NULL [
+            "live_mode":protected
+        ]=> bool(true) [
+            "date_last_updated":protected
+        ]=> string(29) "2023-09-30T10:44:43.789-04:00"[
+            "date_of_expiration":protected
+        ]=> string(29) "2023-10-03T22:59:59.000-04:00"[
+            "deduction_schema":protected
+        ]=> NULL [
+            "date_approved":protected
+        ]=> NULL [
+            "money_release_date":protected
+        ]=> NULL [
+            "money_release_days":protected
+        ]=> NULL [
+            "money_release_schema":protected
+        ]=> NULL [
+            "money_release_status":protected
+        ]=> string(7) "pending"[
+            "currency_id":protected
+        ]=> string(3) "BRL"[
+            "transaction_amount":protected
+        ]=> float(100) [
+            "transaction_amount_refunded":protected
+        ]=> float(0) [
+            "shipping_cost":protected
+        ]=> NULL [
+            "total_paid_amount":protected
+        ]=> NULL [
+            "finance_charge":protected
+        ]=> NULL [
+            "net_received_amount":protected
+        ]=> NULL [
+            "marketplace":protected
+        ]=> NULL [
+            "marketplace_fee":protected
+        ]=> NULL [
+            "reason":protected
+        ]=> NULL [
+            "payer":protected
+        ]=> object(MercadoPago\Payer)#157 (16) {
+            [
+                "_last":protected
+            ]=> NULL [
+                "error":protected
+            ]=> NULL [
+                "_pagination_params":protected
+            ]=> NULL [
+                "_empty":protected
+            ]=> bool(false) [
+                "id":protected
+            ]=> string(10) "1494417253"[
+                "entity_type":protected
+            ]=> NULL [
+                "type":protected
+            ]=> NULL [
+                "name":protected
+            ]=> NULL [
+                "surname":protected
+            ]=> NULL [
+                "first_name":protected
+            ]=> NULL [
+                "last_name":protected
+            ]=> NULL [
+                "email":protected
+            ]=> NULL [
+                "date_created":protected
+            ]=> NULL [
+                "phone":protected
+            ]=> object(stdClass)#20 (3) {
+                [
+                    "area_code"
+                ]=> NULL [
+                    "number"
+                ]=> NULL [
+                    "extension"
+                ]=> NULL
+            } [
+                "identification":protected
+            ]=> object(stdClass)#42 (2) {
+                [
+                    "type"
+                ]=> NULL [
+                    "number"
+                ]=> NULL
+            } [
+                "address":protected
+            ]=> NULL
+        } [
+            "collector":protected
+        ]=> NULL [
+            "collector_id":protected
+        ]=> int(307686468) [
+            "counter_currency":protected
+        ]=> NULL [
+            "payment_method_id":protected
+        ]=> string(11) "bolbradesco"[
+            "payment_type_id":protected
+        ]=> string(6) "ticket"[
+            "pos_id":protected
+        ]=> NULL [
+            "transaction_details":protected
+        ]=> object(stdClass)#28 (12) {
+            [
+                "payment_method_reference_id"
+            ]=> string(11) "10287392770"[
+                "acquirer_reference"
+            ]=> string(0) ""[
+                "barcode"
+            ]=> object(stdClass)#17 (1) {
+                [
+                    "content"
+                ]=> string(44) "42297949200000100007115000064897310392007622"
+            } [
+                "digitable_line"
+            ]=> string(47) "42297115040006489731703920076225794920000010000"[
+                "verification_code"
+            ]=> string(9) "039200762"[
+                "net_received_amount"
+            ]=> int(0) [
+                "total_paid_amount"
+            ]=> int(100) [
+                "overpaid_amount"
+            ]=> int(0) [
+                "external_resource_url"
+            ]=> string(214) "https://www.mercadopago.com.br/payments/64512113720/ticket?caller_id=1494417253&payment_method_id=bolbradesco&payment_id=64512113720&payment_method_reference_id=10287392770&hash=31aa6123-5aa3-4b5a-bcee-04c567cee907"[
+                "installment_amount"
+            ]=> int(0) [
+                "financial_institution"
+            ]=> string(5) "safra"[
+                "payable_deferral_period"
+            ]=> NULL
+        } [
+            "fee_details":protected
+        ]=> array(0) {} [
+            "differential_pricing_id":protected
+        ]=> NULL [
+            "application_fee":protected
+        ]=> NULL [
+            "authorization_code":protected
+        ]=> NULL [
+            "capture":protected
+        ]=> NULL [
+            "captured":protected
+        ]=> bool(true) [
+            "card":protected
+        ]=> object(MercadoPago\Card)#24 (17) {
+            [
+                "_last":protected
+            ]=> NULL [
+                "error":protected
+            ]=> NULL [
+                "_pagination_params":protected
+            ]=> NULL [
+                "_empty":protected
+            ]=> bool(false) [
+                "id":protected
+            ]=> NULL [
+                "token":protected
+            ]=> NULL [
+                "customer_id":protected
+            ]=> NULL [
+                "expiration_month":protected
+            ]=> NULL [
+                "expiration_year":protected
+            ]=> NULL [
+                "first_six_digits":protected
+            ]=> NULL [
+                "last_four_digits":protected
+            ]=> NULL [
+                "payment_method":protected
+            ]=> NULL [
+                "security_code":protected
+            ]=> NULL [
+                "issuer":protected
+            ]=> NULL [
+                "cardholder":protected
+            ]=> NULL [
+                "date_created":protected
+            ]=> NULL [
+                "date_last_updated":protected
+            ]=> NULL
+        } [
+            "call_for_authorize_id":protected
+        ]=> NULL [
+            "statement_descriptor":protected
+        ]=> NULL [
+            "refunds":protected
+        ]=> array(0) {} [
+            "shipping_amount":protected
+        ]=> int(0) [
+            "additional_info":protected
+        ]=> object(stdClass)#58 (3) {
+            [
+                "available_balance"
+            ]=> NULL [
+                "nsu_processadora"
+            ]=> NULL [
+                "authentication_code"
+            ]=> NULL
+        } [
+            "campaign_id":protected
+        ]=> NULL [
+            "coupon_amount":protected
+        ]=> int(0) [
+            "installments":protected
+        ]=> int(1) [
+            "token":protected
+        ]=> NULL [
+            "description":protected
+        ]=> string(19) "Cobrança de boleto"[
+            "notification_url":protected
+        ]=> NULL [
+            "issuer_id":protected
+        ]=> string(4) "2006"[
+            "processing_mode":protected
+        ]=> string(10) "aggregator"[
+            "merchant_account_id":protected
+        ]=> NULL [
+            "merchant_number":protected
+        ]=> NULL [
+            "metadata":protected
+        ]=> array(0) {} [
+            "callback_url":protected
+        ]=> NULL [
+            "amount_refunded":protected
+        ]=> NULL [
+            "coupon_code":protected
+        ]=> NULL [
+            "barcode":protected
+        ]=> object(stdClass)#30 (1) {
+            [
+                "content"
+            ]=> string(44) "42297949200000100007115000064897310392007622"
+        } [
+            "marketplace_owner":protected
+        ]=> NULL [
+            "integrator_id":protected
+        ]=> NULL [
+            "corporation_id":protected
+        ]=> NULL [
+            "platform_id":protected
+        ]=> NULL [
+            "charges_details":protected
+        ]=> array(1) {
+            [
+                0
+            ]=> object(stdClass)#18 (11) {
+                [
+                    "id"
+                ]=> string(15) "64512113720-001"[
+                    "name"
+                ]=> string(15) "mercadopago_fee"[
+                    "type"
+                ]=> string(3) "fee"[
+                    "accounts"
+                ]=> object(stdClass)#29 (2) {
+                    [
+                        "from"
+                    ]=> string(9) "collector"[
+                        "to"
+                    ]=> string(2) "mp"
+                } [
+                    "client_id"
+                ]=> int(0) [
+                    "date_created"
+                ]=> string(29) "2023-09-30T10:44:43.792-04:00"[
+                    "last_updated"
+                ]=> string(29) "2023-09-30T10:44:43.792-04:00"[
+                    "amounts"
+                ]=> object(stdClass)#23 (2) {
+                    [
+                        "original"
+                    ]=> float(3.4900000000000002131628207280300557613372802734375) [
+                        "refunded"
+                    ]=> int(0)
+                } [
+                    "metadata"
+                ]=> array(0) {} [
+                    "reserve_id"
+                ]=> NULL [
+                    "refund_charges"
+                ]=> array(0) {}
+            }
+        } [
+            "taxes":protected
+        ]=> NULL [
+            "net_amount":protected
+        ]=> NULL [
+            "point_of_interaction":protected
+        ]=> object(stdClass)#159 (2) {
+            [
+                "type"
+            ]=> string(11) "UNSPECIFIED"[
+                "business_info"
+            ]=> object(stdClass)#273 (2) {
+                [
+                    "unit"
+                ]=> string(15) "online_payments"[
+                    "sub_unit"
+                ]=> string(3) "sdk"
+            }
+        } [
+            "payment_method_option_id":protected
+        ]=> NULL [
+            "merchant_services":protected
+        ]=> NULL [
+            "build_version":protected
+        ]=> string(15) "3.18.1-hotfix-9"[
+            "payment_method":protected
+        ]=> object(MercadoPago\PaymentMethod)#296 (22) {
+            [
+                "_last":protected
+            ]=> NULL [
+                "error":protected
+            ]=> NULL [
+                "_pagination_params":protected
+            ]=> NULL [
+                "_empty":protected
+            ]=> bool(false) [
+                "id":protected
+            ]=> string(11) "bolbradesco"[
+                "name":protected
+            ]=> NULL [
+                "payment_type_id":protected
+            ]=> NULL [
+                "status":protected
+            ]=> NULL [
+                "secure_thumbnail":protected
+            ]=> NULL [
+                "thumbnail":protected
+            ]=> NULL [
+                "deferred_capture":protected
+            ]=> NULL [
+                "settings":protected
+            ]=> NULL [
+                "additional_info_needed":protected
+            ]=> NULL [
+                "min_allowed_amount":protected
+            ]=> NULL [
+                "max_allowed_amount":protected
+            ]=> NULL [
+                "accreditation_time":protected
+            ]=> NULL [
+                "financial_institutions":protected
+            ]=> NULL [
+                "processing_modes":protected
+            ]=> NULL [
+                "type"
+            ]=> string(6) "ticket"[
+                "issuer_id"
+            ]=> string(4) "2006"[
+                "data"
+            ]=> array(0) {} [
+                "forward_data"
+            ]=> object(stdClass)#51 (2) {
+                [
+                    "ticket_number"
+                ]=> string(0) ""[
+                    "agreement_number"
+                ]=> string(0) ""
+            }
+        }
+    } [
+        "error":protected
+    ]=> NULL [
+        "_pagination_params":protected
+    ]=> NULL [
+        "_empty":protected
+    ]=> bool(false) [
+        "id":protected
+    ]=> int(64512113720) [
+        "acquirer":protected
+    ]=> NULL [
+        "acquirer_reconciliation":protected
+    ]=> array(0) {} [
+        "site_id":protected
+    ]=> NULL [
+        "sponsor_id":protected
+    ]=> NULL [
+        "operation_type":protected
+    ]=> string(15) "regular_payment"[
+        "order_id":protected
+    ]=> NULL [
+        "order":protected
+    ]=> array(0) {} [
+        "binary_mode":protected
+    ]=> bool(false) [
+        "external_reference":protected
+    ]=> NULL [
+        "status":protected
+    ]=> string(7) "pending"[
+        "status_detail":protected
+    ]=> string(23) "pending_waiting_payment"[
+        "store_id":protected
+    ]=> NULL [
+        "taxes_amount":protected
+    ]=> int(0) [
+        "payment_type":protected
+    ]=> NULL [
+        "date_created":protected
+    ]=> string(29) "2023-09-30T10:44:43.789-04:00"[
+        "last_modified":protected
+    ]=> NULL [
+        "live_mode":protected
+    ]=> bool(true) [
+        "date_last_updated":protected
+    ]=> string(29) "2023-09-30T10:44:43.789-04:00"[
+        "date_of_expiration":protected
+    ]=> string(29) "2023-10-03T22:59:59.000-04:00"[
+        "deduction_schema":protected
+    ]=> NULL [
+        "date_approved":protected
+    ]=> NULL [
+        "money_release_date":protected
+    ]=> NULL [
+        "money_release_days":protected
+    ]=> NULL [
+        "money_release_schema":protected
+    ]=> NULL [
+        "money_release_status":protected
+    ]=> string(7) "pending"[
+        "currency_id":protected
+    ]=> string(3) "BRL"[
+        "transaction_amount":protected
+    ]=> float(100) [
+        "transaction_amount_refunded":protected
+    ]=> float(0) [
+        "shipping_cost":protected
+    ]=> NULL [
+        "total_paid_amount":protected
+    ]=> NULL [
+        "finance_charge":protected
+    ]=> NULL [
+        "net_received_amount":protected
+    ]=> NULL [
+        "marketplace":protected
+    ]=> NULL [
+        "marketplace_fee":protected
+    ]=> NULL [
+        "reason":protected
+    ]=> NULL [
+        "payer":protected
+    ]=> object(MercadoPago\Payer)#157 (16) {
+        [
+            "_last":protected
+        ]=> NULL [
+            "error":protected
+        ]=> NULL [
+            "_pagination_params":protected
+        ]=> NULL [
+            "_empty":protected
+        ]=> bool(false) [
+            "id":protected
+        ]=> string(10) "1494417253"[
+            "entity_type":protected
+        ]=> NULL [
+            "type":protected
+        ]=> NULL [
+            "name":protected
+        ]=> NULL [
+            "surname":protected
+        ]=> NULL [
+            "first_name":protected
+        ]=> NULL [
+            "last_name":protected
+        ]=> NULL [
+            "email":protected
+        ]=> NULL [
+            "date_created":protected
+        ]=> NULL [
+            "phone":protected
+        ]=> object(stdClass)#20 (3) {
+            [
+                "area_code"
+            ]=> NULL [
+                "number"
+            ]=> NULL [
+                "extension"
+            ]=> NULL
+        } [
+            "identification":protected
+        ]=> object(stdClass)#42 (2) {
+            [
+                "type"
+            ]=> NULL [
+                "number"
+            ]=> NULL
+        } [
+            "address":protected
+        ]=> NULL
+    } [
+        "collector":protected
+    ]=> NULL [
+        "collector_id":protected
+    ]=> int(307686468) [
+        "counter_currency":protected
+    ]=> NULL [
+        "payment_method_id":protected
+    ]=> string(11) "bolbradesco"[
+        "payment_type_id":protected
+    ]=> string(6) "ticket"[
+        "pos_id":protected
+    ]=> NULL [
+        "transaction_details":protected
+    ]=> object(stdClass)#28 (12) {
+        [
+            "payment_method_reference_id"
+        ]=> string(11) "10287392770"[
+            "acquirer_reference"
+        ]=> string(0) ""[
+            "barcode"
+        ]=> object(stdClass)#17 (1) {
+            [
+                "content"
+            ]=> string(44) "42297949200000100007115000064897310392007622"
+        } [
+            "digitable_line"
+        ]=> string(47) "42297115040006489731703920076225794920000010000"[
+            "verification_code"
+        ]=> string(9) "039200762"[
+            "net_received_amount"
+        ]=> int(0) [
+            "total_paid_amount"
+        ]=> int(100) [
+            "overpaid_amount"
+        ]=> int(0) [
+            "external_resource_url"
+        ]=> string(214) "https://www.mercadopago.com.br/payments/64512113720/ticket?caller_id=1494417253&payment_method_id=bolbradesco&payment_id=64512113720&payment_method_reference_id=10287392770&hash=31aa6123-5aa3-4b5a-bcee-04c567cee907"[
+            "installment_amount"
+        ]=> int(0) [
+            "financial_institution"
+        ]=> string(5) "safra"[
+            "payable_deferral_period"
+        ]=> NULL
+    } [
+        "fee_details":protected
+    ]=> array(0) {} [
+        "differential_pricing_id":protected
+    ]=> NULL [
+        "application_fee":protected
+    ]=> NULL [
+        "authorization_code":protected
+    ]=> NULL [
+        "capture":protected
+    ]=> NULL [
+        "captured":protected
+    ]=> bool(true) [
+        "card":protected
+    ]=> object(MercadoPago\Card)#24 (17) {
+        [
+            "_last":protected
+        ]=> NULL [
+            "error":protected
+        ]=> NULL [
+            "_pagination_params":protected
+        ]=> NULL [
+            "_empty":protected
+        ]=> bool(false) [
+            "id":protected
+        ]=> NULL [
+            "token":protected
+        ]=> NULL [
+            "customer_id":protected
+        ]=> NULL [
+            "expiration_month":protected
+        ]=> NULL [
+            "expiration_year":protected
+        ]=> NULL [
+            "first_six_digits":protected
+        ]=> NULL [
+            "last_four_digits":protected
+        ]=> NULL [
+            "payment_method":protected
+        ]=> NULL [
+            "security_code":protected
+        ]=> NULL [
+            "issuer":protected
+        ]=> NULL [
+            "cardholder":protected
+        ]=> NULL [
+            "date_created":protected
+        ]=> NULL [
+            "date_last_updated":protected
+        ]=> NULL
+    } [
+        "call_for_authorize_id":protected
+    ]=> NULL [
+        "statement_descriptor":protected
+    ]=> NULL [
+        "refunds":protected
+    ]=> array(0) {} [
+        "shipping_amount":protected
+    ]=> int(0) [
+        "additional_info":protected
+    ]=> object(stdClass)#58 (3) {
+        [
+            "available_balance"
+        ]=> NULL [
+            "nsu_processadora"
+        ]=> NULL [
+            "authentication_code"
+        ]=> NULL
+    } [
+        "campaign_id":protected
+    ]=> NULL [
+        "coupon_amount":protected
+    ]=> int(0) [
+        "installments":protected
+    ]=> int(1) [
+        "token":protected
+    ]=> NULL [
+        "description":protected
+    ]=> string(19) "Cobrança de boleto"[
+        "notification_url":protected
+    ]=> NULL [
+        "issuer_id":protected
+    ]=> string(4) "2006"[
+        "processing_mode":protected
+    ]=> string(10) "aggregator"[
+        "merchant_account_id":protected
+    ]=> NULL [
+        "merchant_number":protected
+    ]=> NULL [
+        "metadata":protected
+    ]=> array(0) {} [
+        "callback_url":protected
+    ]=> NULL [
+        "amount_refunded":protected
+    ]=> NULL [
+        "coupon_code":protected
+    ]=> NULL [
+        "barcode":protected
+    ]=> object(stdClass)#30 (1) {
+        [
+            "content"
+        ]=> string(44) "42297949200000100007115000064897310392007622"
+    } [
+        "marketplace_owner":protected
+    ]=> NULL [
+        "integrator_id":protected
+    ]=> NULL [
+        "corporation_id":protected
+    ]=> NULL [
+        "platform_id":protected
+    ]=> NULL [
+        "charges_details":protected
+    ]=> array(1) {
+        [
+            0
+        ]=> object(stdClass)#18 (11) {
+            [
+                "id"
+            ]=> string(15) "64512113720-001"[
+                "name"
+            ]=> string(15) "mercadopago_fee"[
+                "type"
+            ]=> string(3) "fee"[
+                "accounts"
+            ]=> object(stdClass)#29 (2) {
+                [
+                    "from"
+                ]=> string(9) "collector"[
+                    "to"
+                ]=> string(2) "mp"
+            } [
+                "client_id"
+            ]=> int(0) [
+                "date_created"
+            ]=> string(29) "2023-09-30T10:44:43.792-04:00"[
+                "last_updated"
+            ]=> string(29) "2023-09-30T10:44:43.792-04:00"[
+                "amounts"
+            ]=> object(stdClass)#23 (2) {
+                [
+                    "original"
+                ]=> float(3.4900000000000002131628207280300557613372802734375) [
+                    "refunded"
+                ]=> int(0)
+            } [
+                "metadata"
+            ]=> array(0) {} [
+                "reserve_id"
+            ]=> NULL [
+                "refund_charges"
+            ]=> array(0) {}
+        }
+    } [
+        "taxes":protected
+    ]=> NULL [
+        "net_amount":protected
+    ]=> NULL [
+        "point_of_interaction":protected
+    ]=> object(stdClass)#159 (2) {
+        [
+            "type"
+        ]=> string(11) "UNSPECIFIED"[
+            "business_info"
+        ]=> object(stdClass)#273 (2) {
+            [
+                "unit"
+            ]=> string(15) "online_payments"[
+                "sub_unit"
+            ]=> string(3) "sdk"
+        }
+    } [
+        "payment_method_option_id":protected
+    ]=> NULL [
+        "merchant_services":protected
+    ]=> NULL [
+        "build_version":protected
+    ]=> string(15) "3.18.1-hotfix-9"[
+        "payment_method":protected
+    ]=> object(MercadoPago\PaymentMethod)#296 (22) {
+        [
+            "_last":protected
+        ]=> NULL [
+            "error":protected
+        ]=> NULL [
+            "_pagination_params":protected
+        ]=> NULL [
+            "_empty":protected
+        ]=> bool(false) [
+            "id":protected
+        ]=> string(11) "bolbradesco"[
+            "name":protected
+        ]=> NULL [
+            "payment_type_id":protected
+        ]=> NULL [
+            "status":protected
+        ]=> NULL [
+            "secure_thumbnail":protected
+        ]=> NULL [
+            "thumbnail":protected
+        ]=> NULL [
+            "deferred_capture":protected
+        ]=> NULL [
+            "settings":protected
+        ]=> NULL [
+            "additional_info_needed":protected
+        ]=> NULL [
+            "min_allowed_amount":protected
+        ]=> NULL [
+            "max_allowed_amount":protected
+        ]=> NULL [
+            "accreditation_time":protected
+        ]=> NULL [
+            "financial_institutions":protected
+        ]=> NULL [
+            "processing_modes":protected
+        ]=> NULL [
+            "type"
+        ]=> string(6) "ticket"[
+            "issuer_id"
+        ]=> string(4) "2006"[
+            "data"
+        ]=> array(0) {} [
+            "forward_data"
+        ]=> object(stdClass)#51 (2) {
+            [
+                "ticket_number"
+            ]=> string(0) ""[
+                "agreement_number"
+            ]=> string(0) ""
+        }
+    }
+}
